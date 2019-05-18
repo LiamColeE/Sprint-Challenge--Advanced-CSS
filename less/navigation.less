@@ -1,1 +1,29 @@
 // Navigation code here
+header{
+    .flex-box();
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto; 
+    background-color: @nav-bg;
+    h1{
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    nav{
+        .flex-box();
+        width: 40%;
+        margin: 10px auto;
+        @media @phone{
+            width:80%;
+        }
+        a{
+            text-decoration: none;
+            color: @river-bend;
+            font-size: 1.25rem;
+            font-weight: bolder;
+        }
+    }
+}

@@ -1,1 +1,17 @@
 // Mixins Here
+.button-creator(@button-color:black, @button-text-color:red, @button-text-size: 1rem, @button-width:50px, @button-height:10px, @button-roundness:5px){
+    background-color: @button-color;
+    color: @button-text-color;
+    padding-top: @button-height/2;
+    padding-bottom: @button-height/2;
+    text-align: center;
+    border-radius: @button-roundness;
+    width:@button-width;
+    font-size: @button-text-size;
+}
+
+.flex-box(@flex-box-justify-content:space-between, @flex-box-wrap:wrap){
+    display: flex;
+    justify-content: @flex-box-justify-content;
+    flex-wrap: @flex-box-wrap;
+}
