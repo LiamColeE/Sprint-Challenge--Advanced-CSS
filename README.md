@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+adaptive has a new design created for every screen size. Responsive has a more fluid aproach and is able to adapt no matter the screen size. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first simply means you develope your website for a mobile device and than use min-width media queries to create the next bigger sizes. desktop first is the opposite. start with a desktop website, use max-width media queries to created smaller and smaller designs
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+it sets the default text size. 62.5% happens to make 1rem == 10px which and 1.1rem == 11px and so on which makes them really easy to use 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preproccessing is a tool for developers in css to be able to right more structured and organized code that will be turned into normal css for the browser. this makes the procces faster and easier. it also gives functionality that wouldnt be found in normal css such as variables and mixins which give a lot of flexibility to the developer
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is my favorite thing. it lets me think like im used to and makes everthing way more readable. the only thing thats given me trouble is the media query string thing because i forgot to put the breakout character before it and it took me forever to find
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -53,7 +63,7 @@ Follow these steps to set up your project:
 - [ ] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] !!!!!Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
